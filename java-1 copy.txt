@@ -1,0 +1,15 @@
+ mysql -u root
+show databases;
+create database mulibrary;
+use mulibrary;
+create table book(
+ isbn varchar (9) primary key not null,
+ title varchar (25)
+);
+show tables;
+describe book;
+select * from book;
+
+
+
+
